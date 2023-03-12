@@ -58,7 +58,7 @@ function App() {
 
             if (profileObj) {
                 const response = await fetch(
-                    "https://yariga-dhpg.onrender.com/api/v1/users",
+                    "http://localhost:8080/api/v1/users",
                     {
                         method: "POST",
                         headers: { "Content-Type": "application/json" },
@@ -129,7 +129,7 @@ function App() {
             <RefineSnackbarProvider>
                 {/* <GitHubBanner /> */}
                 <Refine
-                    dataProvider={dataProvider("https://yariga-dhpg.onrender.com/api/v1")}
+                    dataProvider={dataProvider("http://localhost:8080/api/v1")}
                     notificationProvider={notificationProvider}
                     ReadyPage={ReadyPage}
                     catchAll={<ErrorComponent />}
