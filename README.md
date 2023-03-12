@@ -1,2 +1,2 @@
 # Yariga
-A real-estate dashboard application made using Refine with CRUD, Auth. 
+An impromptu attempt to make a full-stack application while learning MERN Stack. So far it works :")
